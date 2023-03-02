@@ -1,20 +1,37 @@
-import React from 'react'
-
+import React from "react";
 
 const Home = () => {
   return (
-    <div className='home'>
-        <div className='about'>
-            <h2>Reliable handyman and home repair services</h2>
-            <div className='prompt'>
-                <p>
-                    Need something installed or repaired? Call Joe!
-                </p>
-            </div>
+    <div className="home">
+      <div className="about">
+        <h1>Reliable handyman and home repair services</h1>
+        <div className="prompt">
+          <p>Need something installed or repaired? Call Joe!</p>
         </div>
-
+        <div className="services">
+          <h1>Services</h1>
+          <span>
+            Painting Drywall and plaster repair Door and window trim Gutter
+            repair Gutter cleaning Storm door installation Closet door
+            installation Door locks and deadbolts Bathroom exhaust fan
+            installation Interior & exterior door installation Blinds & window
+            treatment installation Closet shelving design & installation Wall
+            shelving design and installation Storage solutions and shelving
+            Carbon monoxide detector replacement Smoke detector replacement
+            Lighting fixture replacement Bathroom tub and shower resealing
+          </span>
+          <span>
+            Hard to reach lightbulbs Ceiling fan installation Light switches
+            Outlet replacement Kitchen repairs Pet door installation Picture
+            hanging Mailbox installation Siding repair TV wall-mounting Fascia
+            roofing repair Soffit roofing repair Tile repair Tile flooring Wood
+            flooring Laminate flooring Bamboo flooring Floating flooring
+            Furniture assembly
+          </span>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
