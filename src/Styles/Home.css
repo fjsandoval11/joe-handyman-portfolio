@@ -1,0 +1,51 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+    
+  }
+
+/* .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #21325e;
+    color: #f0f0f0;
+  } */
+
+
+.serviceBox{
+  display: flex;
+  justify-content: space-around;
+}
+
+.imageContainer{
+    width: 50%;
+    
+   
+}
+
+.imageContainer img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+
+.services1{
+    padding: 15px;
+    border: 2px solid black;
+
+  }
+
+.services2{
+    padding: 15px;
+    border: 2px solid black;
+
+}
+

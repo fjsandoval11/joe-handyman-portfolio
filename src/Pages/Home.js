@@ -1,4 +1,7 @@
 import React from "react";
+import "../Styles/Home.css";
+import handyMan from '../Assets/handyMan.png'
+
 
 const Home = () => {
   return (
@@ -8,26 +11,58 @@ const Home = () => {
         <div className="prompt">
           <p>Need something installed or repaired? Call Joe!</p>
         </div>
-        <div className="services">
+
+        <div className="serviceBox">
+
+            {/* <div className="serviceTitle">
+
           <h1>Services</h1>
-          <span>
-            Painting Drywall and plaster repair Door and window trim Gutter
-            repair Gutter cleaning Storm door installation Closet door
-            installation Door locks and deadbolts Bathroom exhaust fan
-            installation Interior & exterior door installation Blinds & window
-            treatment installation Closet shelving design & installation Wall
-            shelving design and installation Storage solutions and shelving
-            Carbon monoxide detector replacement Smoke detector replacement
-            Lighting fixture replacement Bathroom tub and shower resealing
-          </span>
-          <span>
-            Hard to reach lightbulbs Ceiling fan installation Light switches
-            Outlet replacement Kitchen repairs Pet door installation Picture
-            hanging Mailbox installation Siding repair TV wall-mounting Fascia
-            roofing repair Soffit roofing repair Tile repair Tile flooring Wood
-            flooring Laminate flooring Bamboo flooring Floating flooring
-            Furniture assembly
-          </span>
+            </div> */}
+
+        <div className="services1">
+            <span>
+            <span>Painting </span>
+            <br/>
+            <span>Drywall and plaster repair </span>
+            <br/>
+            <span>Door and window repair </span>
+            <br/>
+            <span>Gutter repair </span>
+            <br/>
+            <span>Gutter cleaning </span>
+            <br/>
+            <span>Storm door installation</span>
+            <br/>
+            <span>Closet door installation</span>
+            </span>
+            
+        </div>
+
+        <div className="imageContainer">
+        
+         <img src={handyMan} />     
+        </div>
+
+        <div className="services2">
+
+            <span>
+            <span>Door locks and deadbolts</span>
+            <br/>
+            <span>Bathroom exhaust and fan installation</span>
+            <br/>
+            <span>Interior & exterior door installation</span>
+            <br/>
+            <span>Blinds & window treatment installation</span>
+            <br/>
+            <span>Closet shelving desgin & installation</span>
+            <br/>
+            <span>Wall shelving design and installation</span>
+            <br/>
+            <span>Storage solutions and shelving</span>
+            </span>
+
+        </div>
+
         </div>
       </div>
     </div>
