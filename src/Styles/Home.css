@@ -8,7 +8,8 @@
 
 .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
+    height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,34 +28,52 @@
 }
 
 .imageContainer{
-    width: 100%;
+    width: 50%;   
     
-   
 }
 
 .imageContainer img {
-    width: 300px;
-    margin-top: 10%;
+    width: 50vw;
+    /* margin-top: 10%; */
+    padding: 10px;
     height: auto;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 790px){
+  .imageContainer img {
+    display: none;
+  }
+  .services1 {
+    font-size: 18px;
+    line-height: 1.7em;
+    text-align: left;
+   /* margin-left: 5%; */
+   margin-top: 20%;
+   padding-left: 10px;
+ 
+  }
 }
 
 
 
 .services1{
-    font-size: 18px;
-    line-height: 1.4em;
-    text-align: right;
-   margin-left: 10%;
-   margin-top: 10%;
+    font-size: 16px;
+    line-height: 1.7em;
+    text-align: left;
+   /* margin-left: 5%; */
+   margin-top: 20%;
+   padding-left: 10px;
+ 
 
   }
 
 .services2{
-    font-size: 18px;
-    line-height: 1.4em;
-    text-align: right;
-    margin-right: 10%;
-    margin-top: 10%;
+    font-size: 16px;
+    line-height: 1.7em;
+    text-align: left;
+    /* margin-right: 10%; */
+    padding-right: 10px;
+    margin-top: 20%;
 }
 
