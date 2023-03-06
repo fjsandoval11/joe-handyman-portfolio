@@ -3,6 +3,8 @@ import "../Styles/Home.css";
 import handyMan from '../Assets/handyMan.png'
 
 
+
+
 const Home = () => {
   return (
     <div className="home">
