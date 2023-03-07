@@ -8,15 +8,23 @@ import handyMan from '../Assets/handyMan.png'
 const Home = () => {
   return (
     <div className="home">
-      <div className="about">
-        <h1>Reliable handyman and home repair services</h1>
-        <div className="prompt">
-          <p>Need something installed or repaired? Call Joe!</p>
-        </div>
+
+      <div className="aboutContainer">
+
+      <span className="title">
+        <h1>Cruz HandyMan Services</h1>   
+      </span>
+
+        <span className="prompt">
+          <p>Need something installed or repaired? Call Joe at: </p>
+
+         <p className="phone"> 978-770-3287 </p>
+         
+        </span>
       </div>
 
 
-      <div className="serviceBox">
+ <div className="serviceBox">
 
 {/* <div className="serviceTitle">
 

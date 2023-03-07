@@ -1,14 +1,35 @@
 .home {
     width: 100%;
     align-items: center;
-    font-family: "Arial", sans-serif;
-    color: #3e497a;
+    /* font-family: "Arial", sans-serif; */
+    /* color: #3e497a; */
+    font-family: 'Times New Roman', Times, serif;
+    color: #383D3B;
+  }
+
+
+  .aboutContainer{
+
+  }
+
+  .title{
+    /* padding: 20px; */
+
+    
+    font-size: 40px;
+  }
+
+  .prompt {
+    font-size: 30px;
     
   }
 
-.about {
+  .phone {
+    
+    font-size: 25px;
+  }
+/* .about {
     width: 100%;
-    /* height: calc(100vh - 100px); */
     height: 15vh;
     display: flex;
     flex-direction: column;
@@ -17,7 +38,13 @@
     text-align: center;
     background-color: #21325e;
     color: #f0f0f0;
-  }
+    padding-top: 15px ;
+  } */
+
+  /* .about h1 {
+    padding-top: 25px;
+  } */
+
 
 
 .serviceBox{
