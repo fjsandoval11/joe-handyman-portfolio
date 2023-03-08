@@ -46,18 +46,7 @@ const Home = () => {
 <span>Storm door installation</span>
 <br/>
 <span>Closet door installation</span>
-</span>
-
-</div>
-
-<div className="imageContainer">
-
-<img src={handyMan} />     
-</div>
-
-<div className="services2">
-
-<span>
+<br />
 <span>Door locks and deadbolts</span>
 <br/>
 <span>Bathroom exhaust and fan installation</span>
@@ -71,6 +60,29 @@ const Home = () => {
 <span>Wall shelving design and installation</span>
 <br/>
 <span>Storage solutions and shelving</span>
+<br />
+<span>Carbon monoxide detector replacement</span>
+<br />
+<span>Smoke detector replacement</span>
+<br />
+<span>lighting fixture replacement</span>
+<br />
+<span>Bathroom tub and shower resealing</span>
+</span>
+
+
+
+</div>
+
+<div className="imageContainer">
+
+<img src={handyMan} />     
+</div>
+
+<div className="services2">
+
+<span>
+<span>Hard to reach lightbulbs</span>
 </span>
 
 </div>
