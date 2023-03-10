@@ -14,7 +14,11 @@ const Home = () => {
         <span className="prompt">
           <p>Need something installed or repaired? Call Joe at: </p>
 
-          <p className="phone"> 978-770-3287 </p>
+          <a className="phone" href="tel: 574-333-9616"> 978-770-3287 </a>
+
+          <p>Or send us an email at: </p>
+
+          <a className="email" onClick={()=> window.location.href = "mailto:cruzhandymanservices70@gmail.com?subject=Service"}>cruzhandymanservices70@gmail.com</a>
         </span>
       </div>
 
